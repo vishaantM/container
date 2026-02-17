@@ -23,5 +23,5 @@ jobs:
       # Build and push the Docker image to dockerhub
       - name: Build and push Docker image
         run: |
-          docker build -t vashisht:latest .
-          docker push vashisht:latest
+          docker build -t vishaantmatabadal/vashisht:latest .
+          docker push vishaantmatabadal/vashisht:latest
