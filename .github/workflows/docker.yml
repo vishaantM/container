@@ -23,5 +23,5 @@ jobs:
       # Build and push the Docker image
       - name: Build and push Docker image
         run: |
-          docker build -t vishaantmatabadal@hotmail.com/vashisht:latest .
-          docker push vishaantmatabadal@hotmail.com/vashisht:latest
+          docker build -t vishaantmatabadal/vashisht:latest .
+          docker push vishaantmatabadal/vashisht:latest
